@@ -1,0 +1,25 @@
+{
+  "name": "raw-printer-mock",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/yell0w4x/raw-printer-mock#readme",
+  "description": "A simple raw PJL printer mock",
+  "main": "index.mjs",
+  "keywords": [
+    "raw",
+    "printer",
+    "server",
+    "mock",
+    "rawprinter",
+    "pjl"
+  ],
+  "bin": {
+    "rawprinter": "./index.mjs"
+  },
+  "packageManager": "yarn@4.9.2",
+  "dependencies": {
+    "command-line-parser": "^0.2.10",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  }
+}
